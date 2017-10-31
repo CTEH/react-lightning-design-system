@@ -68,9 +68,9 @@ export default class DateInput extends Component {
   }
 
   onInputChange(e) {
-    const { formatter } = this.props;
+    const { inputFormatter } = this.props;
     let inputValue = e.target.value;
-    if (formatter) inputValue = formatter(inputValue);
+    if (inputFormatter) inputValue = inputFormatter(inputValue);
     this.setState({ inputValue });
     if (this.props.onChange) {
       this.props.onChange(e, inputValue);
@@ -175,7 +175,7 @@ export default class DateInput extends Component {
   renderInput({ inputValue, ...props }) {
     const pprops = props;
     delete pprops.onValueChange;
-    delete pprops.formatter;
+    delete pprops.inputFormatter;
     return (
       <div className='slds-input-has-icon slds-input-has-icon--right'>
         <Input
@@ -299,7 +299,7 @@ DateInput.propTypes = {
   onBlur: PropTypes.func,
   onChange: PropTypes.func,
   onValueChange: PropTypes.func,
-  formatter: PropTypes.func,
+  inputFormatter: PropTypes.func,
   onComplete: PropTypes.func,
   menuAlign: PropTypes.oneOf(MENU_ALIGN),
   minDate: PropTypes.string,
