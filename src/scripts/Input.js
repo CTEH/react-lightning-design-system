@@ -7,7 +7,6 @@ import FormElement from './FormElement';
 import Text from './Text';
 import { uuid } from './util';
 
-
 export default class Input extends Component {
   constructor() {
     super();
@@ -45,61 +44,102 @@ export default class Input extends Component {
         category='body'
         type='regular'
       >
-        { content }
+        {content}
       </Text>
     );
   }
 
   renderIcon(icon, align) {
-    return (
-      React.isValidElement(icon) ? icon :
-        <Icon
-          icon={ icon }
-          className={ classnames('slds-input__icon', `slds-input__icon--${align}`, 'slds-icon-text-default') }
-        />
+    return React.isValidElement(icon) ? (
+      icon
+    ) : (
+      <Icon
+        icon={icon}
+        className={classnames(
+          'slds-input__icon',
+          `slds-input__icon--${align}`,
+          'slds-icon-text-default'
+        )}
+      />
     );
   }
 
   renderInput(props) {
     const {
-      id, readOnly, className, inputRef, type, bare, value, defaultValue, htmlReadOnly,
+      id,
+      readOnly,
+      className,
+      inputRef,
+      type,
+      bare,
+      value,
+      defaultValue,
+      htmlReadOnly,
+      customInput,
       ...pprops
     } = props;
-    const inputClassNames = classnames(className, bare ? 'slds-input--bare' : 'slds-input');
-    return (
-      readOnly ?
+    const inputClassNames = classnames(
+      className,
+      bare ? 'slds-input--bare' : 'slds-input'
+    );
+    if (readOnly) {
+      return (
         <Text
           type='regular'
           category='body'
           className='slds-form-element__static'
-          id={ id }
+          id={id}
         >
-          { value }
-        </Text> :
-          <input
-            ref={ inputRef }
-            className={ inputClassNames }
-            id={ id }
-            type={ type }
-            value={ value }
-            defaultValue={ defaultValue }
-            readOnly={ htmlReadOnly }
-            { ...pprops }
-            onChange={ this.onChange }
-            onKeyDown={ this.onKeyDown }
-          />
-    );
+          {value}
+        </Text>
+      );
+    }
+
+    const inputProps = {
+      ...pprops,
+      ref: inputRef,
+      className: inputClassNames,
+      id,
+      type,
+      value,
+      defaultValue,
+      readOnly: htmlReadOnly,
+      onChange: this.onChange,
+      onKeyDown: this.onKeyDown,
+    };
+
+    if (customInput) {
+      const CustomInput = customInput;
+      return <CustomInput {...inputProps} />;
+    }
+
+    return <input {...inputProps} />;
   }
 
   render() {
     const {
-      id = `input-${uuid()}`, label, required, error, readOnly, totalCols, cols, ...props
+      id = `input-${uuid()}`,
+      label,
+      required,
+      error,
+      readOnly,
+      totalCols,
+      cols,
+      ...props
     } = this.props;
     if (label || required || error || totalCols || cols) {
-      const formElemProps = { id, label, required, error, readOnly, totalCols, cols };
+      const formElemProps = {
+        id,
+        label,
+        required,
+        error,
+        readOnly,
+        totalCols,
+        cols,
+      };
       return (
-        <FormElement { ...formElemProps }>
-          <Input { ...{ id, readOnly, ...props } } />
+        <FormElement {...formElemProps}>
+          <Input {...{ id, readOnly, ...props }} />
         </FormElement>
       );
     }
@@ -113,15 +153,15 @@ export default class Input extends Component {
         { 'slds-input-has-icon--left-right': iconLeft && iconRight },
         { 'slds-input-has-icon--left': iconLeft },
         { 'slds-input-has-icon--right': iconRight },
-        { 'slds-input-has-fixed-addon': addonLeft || addonRight },
+        { 'slds-input-has-fixed-addon': addonLeft || addonRight }
       );
       return (
-        <div className={ wrapperClassName }>
-          { addonLeft ? this.renderAddon(addonLeft) : undefined }
-          { iconLeft ? this.renderIcon(iconLeft, 'left') : undefined }
-          { this.renderInput(inputProps) }
-          { iconRight ? this.renderIcon(iconRight, 'right') : undefined }
-          { addonRight ? this.renderAddon(addonRight) : undefined }
+        <div className={wrapperClassName}>
+          {addonLeft ? this.renderAddon(addonLeft) : undefined}
+          {iconLeft ? this.renderIcon(iconLeft, 'left') : undefined}
+          {this.renderInput(inputProps)}
+          {iconRight ? this.renderIcon(iconRight, 'right') : undefined}
+          {addonRight ? this.renderAddon(addonRight) : undefined}
         </div>
       );
     }
@@ -145,20 +185,13 @@ Input.propTypes = {
   symbolPattern: PropTypes.string,
   readOnly: PropTypes.bool,
   htmlReadOnly: PropTypes.bool,
-  iconLeft: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.element,
-  ]),
-  iconRight: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.element,
-  ]),
-  addonLeft: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.element,
-  ]),
-  addonRight: PropTypes.oneOfType([
-    PropTypes.string,
+  iconLeft: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  iconRight: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  addonLeft: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  addonRight: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  customInput: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.node,
     PropTypes.element,
   ]),
   onChange: PropTypes.func,
