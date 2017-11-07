@@ -7271,6 +7271,7 @@ exports[`Horizontal Form`] = `
               className="slds-form-element__control">
               <input
                 className="slds-input"
+                customInput={undefined}
                 defaultValue={undefined}
                 id="input-$uuid$"
                 onChange={[Function]}
@@ -7459,6 +7460,7 @@ exports[`Horizontal Form`] = `
                   className="slds-input-has-icon slds-input-has-icon--right">
                   <input
                     className="slds-input"
+                    customInput={undefined}
                     defaultValue={undefined}
                     id="form-element-$uuid$"
                     onBlur={[Function]}
@@ -7515,6 +7517,7 @@ exports[`Horizontal Form`] = `
                     className="slds-grid slds-input-has-icon slds-input-has-icon--right">
                     <input
                       className="slds-input"
+                      customInput={undefined}
                       defaultValue={undefined}
                       id="form-element-$uuid$"
                       onBlur={[Function]}
@@ -10069,10 +10072,10 @@ exports[`Horizontal Form`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -10097,7 +10100,7 @@ exports[`Horizontal Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -10111,7 +10114,7 @@ exports[`Horizontal Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -10139,7 +10142,7 @@ exports[`Horizontal Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -10167,7 +10170,7 @@ exports[`Horizontal Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -10195,7 +10198,21 @@ exports[`Horizontal Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -10223,10 +10240,10 @@ exports[`Horizontal Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -12033,6 +12050,7 @@ exports[`Inline Form`] = `
               className="slds-form-element__control">
               <input
                 className="slds-input"
+                customInput={undefined}
                 defaultValue={undefined}
                 id="input-$uuid$"
                 onChange={[Function]}
@@ -12053,6 +12071,7 @@ exports[`Inline Form`] = `
               className="slds-form-element__control">
               <input
                 className="slds-input"
+                customInput={undefined}
                 defaultValue={undefined}
                 id="input-$uuid$"
                 onChange={[Function]}
@@ -12853,10 +12872,10 @@ exports[`Inline Form`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -12881,7 +12900,7 @@ exports[`Inline Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -12895,7 +12914,7 @@ exports[`Inline Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -12923,7 +12942,7 @@ exports[`Inline Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -12951,7 +12970,7 @@ exports[`Inline Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -12979,7 +12998,21 @@ exports[`Inline Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -13007,10 +13040,10 @@ exports[`Inline Form`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no

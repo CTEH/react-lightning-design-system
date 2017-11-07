@@ -61,12 +61,12 @@ export default class Input extends Component {
 
   renderInput(props) {
     const {
-      id, readOnly, className, inputRef, type, bare, value, defaultValue, htmlReadOnly,
+      id, readOnly, className, inputRef, type, bare, value, defaultValue, htmlReadOnly, customInput,
       ...pprops
     } = props;
     const inputClassNames = classnames(className, bare ? 'slds-input--bare' : 'slds-input');
-    return (
-      readOnly ?
+    if (readOnly) {
+      return (
         <Text
           type='regular'
           category='body'
@@ -74,20 +74,29 @@ export default class Input extends Component {
           id={ id }
         >
           { value }
-        </Text> :
-          <input
-            ref={ inputRef }
-            className={ inputClassNames }
-            id={ id }
-            type={ type }
-            value={ value }
-            defaultValue={ defaultValue }
-            readOnly={ htmlReadOnly }
-            { ...pprops }
-            onChange={ this.onChange }
-            onKeyDown={ this.onKeyDown }
-          />
-    );
+        </Text>
+      );
+    }
+
+    const inputProps = {
+      ref: inputRef,
+      className: inputClassNames,
+      id: id,
+      type: type,
+      value: value,
+      defaultValue: defaultValue,
+      readOnly: htmlReadOnly,
+      customInput: customInput,
+      onChange: this.onChange,
+      onKeyDown: this.onKeyDown,
+      ...pprops,
+    };
+
+    if (customInput) {
+      return React.createElement(customInput, inputProps);
+    }
+
+    return <input {...inputProps} />;
   }
 
   render() {
@@ -158,6 +167,11 @@ Input.propTypes = {
   ]),
   addonRight: PropTypes.oneOfType([
     PropTypes.string,
+    PropTypes.element,
+  ]),
+  customInput: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.node,
     PropTypes.element,
   ]),
   onChange: PropTypes.func,

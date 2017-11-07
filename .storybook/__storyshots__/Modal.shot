@@ -3043,6 +3043,7 @@ exports[`Form elements`] = `
                           className="slds-form-element__control">
                           <input
                             className="slds-input"
+                            customInput={undefined}
                             defaultValue={undefined}
                             id="input-$uuid$"
                             onChange={[Function]}
@@ -3064,6 +3065,7 @@ exports[`Form elements`] = `
                           className="slds-form-element__control">
                           <input
                             className="slds-input"
+                            customInput={undefined}
                             defaultValue={undefined}
                             id="input-$uuid$"
                             onChange={[Function]}
@@ -3102,6 +3104,7 @@ exports[`Form elements`] = `
                               className="slds-input-has-icon slds-input-has-icon--right">
                               <input
                                 className="slds-input"
+                                customInput={undefined}
                                 defaultValue={undefined}
                                 id="form-element-$uuid$"
                                 onBlur={[Function]}
@@ -3153,6 +3156,7 @@ exports[`Form elements`] = `
                               className="slds-input-has-icon slds-input-has-icon--right">
                               <input
                                 className="slds-input"
+                                customInput={undefined}
                                 defaultValue={undefined}
                                 id="form-element-$uuid$"
                                 onBlur={[Function]}
@@ -3209,6 +3213,7 @@ exports[`Form elements`] = `
                           className="slds-input-has-icon slds-input-has-icon--right">
                           <input
                             className="slds-input"
+                            customInput={undefined}
                             defaultValue={undefined}
                             id="form-element-$uuid$"
                             onBlur={[Function]}
@@ -3315,6 +3320,7 @@ exports[`Form elements`] = `
                             className="slds-grid slds-input-has-icon slds-input-has-icon--right">
                             <input
                               className="slds-input"
+                              customInput={undefined}
                               defaultValue={undefined}
                               id="form-element-$uuid$"
                               onBlur={[Function]}
@@ -7187,10 +7193,10 @@ exports[`Form elements`] = `
                 <tbody>
                   <tr>
                     <td>
-                      bare
+                      inputRef
                     </td>
                     <td>
-                      bool
+                      func
                     </td>
                     <td>
                       no
@@ -7215,7 +7221,7 @@ exports[`Form elements`] = `
                   </tr>
                   <tr>
                     <td>
-                      addonRight
+                      customInput
                     </td>
                     <td>
                       other
@@ -7229,7 +7235,7 @@ exports[`Form elements`] = `
                   </tr>
                   <tr>
                     <td>
-                      addonLeft
+                      addonRight
                     </td>
                     <td>
                       other
@@ -7257,7 +7263,7 @@ exports[`Form elements`] = `
                   </tr>
                   <tr>
                     <td>
-                      iconRight
+                      addonLeft
                     </td>
                     <td>
                       other
@@ -7285,7 +7291,7 @@ exports[`Form elements`] = `
                   </tr>
                   <tr>
                     <td>
-                      iconLeft
+                      iconRight
                     </td>
                     <td>
                       other
@@ -7313,7 +7319,21 @@ exports[`Form elements`] = `
                   </tr>
                   <tr>
                     <td>
-                      htmlReadOnly
+                      iconLeft
+                    </td>
+                    <td>
+                      other
+                    </td>
+                    <td>
+                      no
+                    </td>
+                    <td>
+                      -
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      bare
                     </td>
                     <td>
                       bool
@@ -7341,10 +7361,10 @@ exports[`Form elements`] = `
                   </tr>
                   <tr>
                     <td>
-                      inputRef
+                      htmlReadOnly
                     </td>
                     <td>
-                      func
+                      bool
                     </td>
                     <td>
                       no

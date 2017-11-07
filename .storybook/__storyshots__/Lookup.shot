@@ -14,8 +14,8 @@ exports[`Active`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -1711,8 +1711,8 @@ exports[`Active`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -1733,8 +1733,8 @@ exports[`Active`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -1758,7 +1758,7 @@ exports[`Active`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -1878,9 +1878,9 @@ exports[`Active`] = `
                               "wordBreak": "break-word",
                             }
                           }>
-                          \"
+                          "
                           Lookup Label
-                          \"
+                          "
                         </span>
                       </span>
                     </span>
@@ -1905,9 +1905,9 @@ exports[`Active`] = `
                               "wordBreak": "break-word",
                             }
                           }>
-                          \"
+                          "
                           A
-                          \"
+                          "
                         </span>
                       </span>
                     </span>
@@ -1969,9 +1969,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   standard:account
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 <span
@@ -1990,9 +1990,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   Apple Inc.
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 <span
@@ -2011,9 +2011,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   100000
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 …
@@ -2047,9 +2047,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   standard:account
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 <span
@@ -2068,9 +2068,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   Alphabet Inc.
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 <span
@@ -2089,9 +2089,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   100001
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 …
@@ -2125,9 +2125,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   standard:account
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 <span
@@ -2146,9 +2146,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   Microsoft Corporation
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 <span
@@ -2167,9 +2167,9 @@ exports[`Active`] = `
                                       "wordBreak": "break-word",
                                     }
                                   }>
-                                  \"
+                                  "
                                   100002
-                                  \"
+                                  "
                                 </span>
                                 , 
                                 …
@@ -2405,9 +2405,9 @@ exports[`Active`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               Lookup
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -2894,8 +2894,8 @@ exports[`Controlled`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -3015,8 +3015,8 @@ exports[`Controlled`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -3037,8 +3037,8 @@ exports[`Controlled`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -3062,7 +3062,7 @@ exports[`Controlled`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -3106,9 +3106,9 @@ exports[`Controlled`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Lookup (Controlled)
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -3257,9 +3257,9 @@ exports[`Controlled`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               LookupControlled
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -3424,8 +3424,8 @@ exports[`Controlled with Multi Scope`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -3590,8 +3590,8 @@ exports[`Controlled with Multi Scope`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -3612,8 +3612,8 @@ exports[`Controlled with Multi Scope`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -3637,7 +3637,7 @@ exports[`Controlled with Multi Scope`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -3681,9 +3681,9 @@ exports[`Controlled with Multi Scope`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Lookup (Controlled, Multi Scope)
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -3735,9 +3735,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Account
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -3756,9 +3756,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Account
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -3777,9 +3777,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 standard:account
-                                \"
+                                "
                               </span>
                               }
                             </span>
@@ -3811,9 +3811,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Campaign
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -3832,9 +3832,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Campaign
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -3853,9 +3853,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 standard:campaign
-                                \"
+                                "
                               </span>
                               }
                             </span>
@@ -3887,9 +3887,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Case
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -3908,9 +3908,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Case
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -3929,9 +3929,9 @@ exports[`Controlled with Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 standard:case
-                                \"
+                                "
                               </span>
                               }
                             </span>
@@ -4146,9 +4146,9 @@ exports[`Controlled with Multi Scope`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               LookupControlled
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -4375,6 +4375,7 @@ exports[`Controlled with knobs`] = `
                   className="slds-grid slds-input-has-icon slds-input-has-icon--right">
                   <input
                     className="slds-input"
+                    customInput={undefined}
                     defaultValue={undefined}
                     disabled={undefined}
                     id="form-element-$uuid$"
@@ -7257,6 +7258,7 @@ exports[`In Loading`] = `
                   className="slds-grid slds-input-has-icon slds-input-has-icon--right">
                   <input
                     className="slds-input"
+                    customInput={undefined}
                     defaultValue={undefined}
                     id="form-element-$uuid$"
                     onBlur={[Function]}
@@ -8145,8 +8147,8 @@ exports[`Multi Scope`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -8311,8 +8313,8 @@ exports[`Multi Scope`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -8333,8 +8335,8 @@ exports[`Multi Scope`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -8358,7 +8360,7 @@ exports[`Multi Scope`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -8402,9 +8404,9 @@ exports[`Multi Scope`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Lookup (multiple scope)
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -8485,9 +8487,9 @@ exports[`Multi Scope`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         A
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -8539,9 +8541,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Account
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -8560,9 +8562,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Account
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -8581,9 +8583,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 standard:account
-                                \"
+                                "
                               </span>
                               }
                             </span>
@@ -8615,9 +8617,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Campaign
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -8636,9 +8638,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Campaign
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -8657,9 +8659,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 standard:campaign
-                                \"
+                                "
                               </span>
                               }
                             </span>
@@ -8691,9 +8693,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Case
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -8712,9 +8714,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 Case
-                                \"
+                                "
                               </span>
                               , 
                               <span
@@ -8733,9 +8735,9 @@ exports[`Multi Scope`] = `
                                     "wordBreak": "break-word",
                                   }
                                 }>
-                                \"
+                                "
                                 standard:case
-                                \"
+                                "
                               </span>
                               }
                             </span>
@@ -8978,9 +8980,9 @@ exports[`Multi Scope`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               Lookup
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -9572,6 +9574,7 @@ exports[`Multi Scope - Disabled`] = `
                     className="slds-grid slds-input-has-icon slds-input-has-icon--right slds-col">
                     <input
                       className="slds-col slds-input--bare"
+                      customInput={undefined}
                       defaultValue={undefined}
                       disabled={true}
                       id="form-element-$uuid$"
@@ -10830,6 +10833,7 @@ exports[`Uncontrolled`] = `
                   className="slds-grid slds-input-has-icon slds-input-has-icon--right">
                   <input
                     className="slds-input"
+                    customInput={undefined}
                     defaultValue={undefined}
                     id="form-element-$uuid$"
                     onBlur={[Function]}
@@ -12301,6 +12305,7 @@ exports[`Uncontrolled with Multi Scope`] = `
                     className="slds-grid slds-input-has-icon slds-input-has-icon--right slds-col">
                     <input
                       className="slds-col slds-input--bare"
+                      customInput={undefined}
                       defaultValue={undefined}
                       disabled={undefined}
                       id="form-element-$uuid$"
@@ -14046,6 +14051,7 @@ exports[`With list header/footer`] = `
                     className="slds-grid slds-input-has-icon slds-input-has-icon--right">
                     <input
                       className="slds-input"
+                      customInput={undefined}
                       defaultValue={undefined}
                       id="form-element-$uuid$"
                       onBlur={[Function]}
@@ -17016,6 +17022,7 @@ exports[`With search icon in left`] = `
                   className="slds-grid slds-input-has-icon slds-input-has-icon--left">
                   <input
                     className="slds-input"
+                    customInput={undefined}
                     defaultValue={undefined}
                     id="form-element-$uuid$"
                     onBlur={[Function]}
@@ -17888,8 +17895,8 @@ exports[`With search text`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -18009,8 +18016,8 @@ exports[`With search text`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -18031,8 +18038,8 @@ exports[`With search text`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -18056,7 +18063,7 @@ exports[`With search text`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -18100,9 +18107,9 @@ exports[`With search text`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Lookup Label
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -18127,9 +18134,9 @@ exports[`With search text`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         A
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -18306,9 +18313,9 @@ exports[`With search text`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               Lookup
-              \" Component
+              " Component
             </h2>
             <table
               style={

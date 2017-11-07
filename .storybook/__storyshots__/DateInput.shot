@@ -71,6 +71,7 @@ exports[`Controlled with knobs`] = `
                 className="slds-input-has-icon slds-input-has-icon--right">
                 <input
                   className="slds-input"
+                  customInput={undefined}
                   defaultValue={undefined}
                   id="form-element-$uuid$"
                   onBlur={[Function]}
@@ -680,8 +681,8 @@ exports[`Default`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -787,8 +788,8 @@ exports[`Default`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -809,8 +810,8 @@ exports[`Default`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -834,7 +835,7 @@ exports[`Default`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -878,9 +879,9 @@ exports[`Default`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Date Input Label
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -905,9 +906,9 @@ exports[`Default`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         2016-04-13
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -1028,9 +1029,9 @@ exports[`Default`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               DateInput
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -1299,9 +1300,9 @@ exports[`Default`] = `
                           "wordBreak": "break-word",
                         }
                       }>
-                      \"
+                      "
                       left
-                      \"
+                      "
                     </span>
                   </td>
                 </tr>
@@ -1430,6 +1431,7 @@ exports[`Disabled`] = `
                 className="slds-input-has-icon slds-input-has-icon--right">
                 <input
                   className="slds-input"
+                  customInput={undefined}
                   defaultValue={undefined}
                   disabled={true}
                   id="form-element-$uuid$"
@@ -2073,8 +2075,8 @@ exports[`Error`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -2188,8 +2190,8 @@ exports[`Error`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -2210,8 +2212,8 @@ exports[`Error`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -2235,7 +2237,7 @@ exports[`Error`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -2279,9 +2281,9 @@ exports[`Error`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Date Input Label
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -2306,9 +2308,9 @@ exports[`Error`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         2016-04-13
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -2343,9 +2345,9 @@ exports[`Error`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         This field is required
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -2466,9 +2468,9 @@ exports[`Error`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               DateInput
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -2737,9 +2739,9 @@ exports[`Error`] = `
                           "wordBreak": "break-word",
                         }
                       }>
-                      \"
+                      "
                       left
-                      \"
+                      "
                     </span>
                   </td>
                 </tr>
@@ -2811,8 +2813,8 @@ exports[`Include time data`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -2918,8 +2920,8 @@ exports[`Include time data`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -2940,8 +2942,8 @@ exports[`Include time data`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -2965,7 +2967,7 @@ exports[`Include time data`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -3009,9 +3011,9 @@ exports[`Include time data`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Date Input Label
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -3036,9 +3038,9 @@ exports[`Include time data`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         2016-04-13T23:42:56+0900
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -3063,9 +3065,9 @@ exports[`Include time data`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         YYYY/MM/DD HH:mm:ss
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -3196,9 +3198,9 @@ exports[`Include time data`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               DateInput
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -3467,9 +3469,9 @@ exports[`Include time data`] = `
                           "wordBreak": "break-word",
                         }
                       }>
-                      \"
+                      "
                       left
-                      \"
+                      "
                     </span>
                   </td>
                 </tr>
@@ -3602,6 +3604,7 @@ exports[`Required`] = `
                 className="slds-input-has-icon slds-input-has-icon--right">
                 <input
                   className="slds-input"
+                  customInput={undefined}
                   defaultValue={undefined}
                   id="form-element-$uuid$"
                   onBlur={[Function]}
@@ -4248,8 +4251,8 @@ exports[`With date format`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -4355,8 +4358,8 @@ exports[`With date format`] = `
             "WebkitFontSmoothing": "antialiased",
             "color": "#444",
             "fontFamily": "
-              -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-              \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+              -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+              "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
             ",
             "fontSize": "15px",
             "fontWeight": 300,
@@ -4377,8 +4380,8 @@ exports[`With date format`] = `
                 "WebkitFontSmoothing": "antialiased",
                 "color": "#444",
                 "fontFamily": "
-                  -apple-system, \".SFNSText-Regular\", \"San Francisco\", \"Roboto\",
-                  \"Segoe UI\", \"Helvetica Neue\", \"Lucida Grande\", sans-serif
+                  -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+                  "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
                 ",
                 "fontSize": "15px",
               }
@@ -4402,7 +4405,7 @@ exports[`With date format`] = `
             style={
               Object {
                 "backgroundColor": "#fafafa",
-                "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+                "fontFamily": "Menlo, Monaco, "Courier New", monospace",
                 "fontSize": ".88em",
                 "lineHeight": 1.5,
                 "overflowX": "scroll",
@@ -4446,9 +4449,9 @@ exports[`With date format`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         Date Input Label
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -4473,9 +4476,9 @@ exports[`With date format`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         2016-04-13
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -4500,9 +4503,9 @@ exports[`With date format`] = `
                             "wordBreak": "break-word",
                           }
                         }>
-                        \"
+                        "
                         YYYY.MM.DD
-                        \"
+                        "
                       </span>
                     </span>
                   </span>
@@ -4623,9 +4626,9 @@ exports[`With date format`] = `
                   "margin": "20px 0 0 0",
                 }
               }>
-              \"
+              "
               DateInput
-              \" Component
+              " Component
             </h2>
             <table
               style={
@@ -4894,9 +4897,9 @@ exports[`With date format`] = `
                           "wordBreak": "break-word",
                         }
                       }>
-                      \"
+                      "
                       left
-                      \"
+                      "
                     </span>
                   </td>
                 </tr>
@@ -5025,6 +5028,7 @@ exports[`With min/max date`] = `
                 className="slds-input-has-icon slds-input-has-icon--right">
                 <input
                   className="slds-input"
+                  customInput={undefined}
                   defaultValue={undefined}
                   id="form-element-$uuid$"
                   onBlur={[Function]}
