@@ -67,6 +67,7 @@ exports[`Controlled with knobs`] = `
             className="slds-form-element__control">
             <input
               className="slds-input"
+              customInput={undefined}
               defaultValue={undefined}
               disabled={undefined}
               id="input-$uuid$"
@@ -590,10 +591,10 @@ exports[`Controlled with knobs`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -618,7 +619,7 @@ exports[`Controlled with knobs`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -632,7 +633,7 @@ exports[`Controlled with knobs`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -660,7 +661,7 @@ exports[`Controlled with knobs`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -688,7 +689,7 @@ exports[`Controlled with knobs`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -716,7 +717,21 @@ exports[`Controlled with knobs`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -744,10 +759,10 @@ exports[`Controlled with knobs`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -1538,6 +1553,7 @@ exports[`Disabled`] = `
             className="slds-form-element__control">
             <input
               className="slds-input"
+              customInput={undefined}
               defaultValue={undefined}
               disabled={true}
               id="input-$uuid$"
@@ -1752,10 +1768,10 @@ exports[`Disabled`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -1780,7 +1796,7 @@ exports[`Disabled`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -1794,7 +1810,7 @@ exports[`Disabled`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -1822,7 +1838,7 @@ exports[`Disabled`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -1850,7 +1866,7 @@ exports[`Disabled`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -1878,7 +1894,21 @@ exports[`Disabled`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -1906,10 +1936,10 @@ exports[`Disabled`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -2127,6 +2157,7 @@ exports[`Error`] = `
             className="slds-form-element__control">
             <input
               className="slds-input"
+              customInput={undefined}
               defaultValue={undefined}
               id="input-$uuid$"
               onChange={[Function]}
@@ -2380,10 +2411,10 @@ exports[`Error`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -2408,7 +2439,7 @@ exports[`Error`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -2422,7 +2453,7 @@ exports[`Error`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -2450,7 +2481,7 @@ exports[`Error`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -2478,7 +2509,7 @@ exports[`Error`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -2506,7 +2537,21 @@ exports[`Error`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -2534,10 +2579,10 @@ exports[`Error`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -3995,6 +4040,7 @@ exports[`Read only (HTML)`] = `
             className="slds-form-element__control">
             <input
               className="slds-input"
+              customInput={undefined}
               defaultValue={undefined}
               id="input-$uuid$"
               onChange={[Function]}
@@ -4207,10 +4253,10 @@ exports[`Read only (HTML)`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -4235,7 +4281,7 @@ exports[`Read only (HTML)`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -4249,7 +4295,7 @@ exports[`Read only (HTML)`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -4277,7 +4323,7 @@ exports[`Read only (HTML)`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -4305,7 +4351,7 @@ exports[`Read only (HTML)`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -4333,7 +4379,21 @@ exports[`Read only (HTML)`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -4361,10 +4421,10 @@ exports[`Read only (HTML)`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -4860,10 +4920,10 @@ exports[`Read only with fixed text`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -4888,7 +4948,7 @@ exports[`Read only with fixed text`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -4902,7 +4962,7 @@ exports[`Read only with fixed text`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -4930,7 +4990,7 @@ exports[`Read only with fixed text`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -4958,7 +5018,7 @@ exports[`Read only with fixed text`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -4986,7 +5046,21 @@ exports[`Read only with fixed text`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -5014,10 +5088,10 @@ exports[`Read only with fixed text`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -6476,6 +6550,7 @@ exports[`With icon to the left`] = `
               </svg>
               <input
                 className="slds-input"
+                customInput={undefined}
                 defaultValue={undefined}
                 id="input-$uuid$"
                 onChange={[Function]}
@@ -6707,10 +6782,10 @@ exports[`With icon to the left`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -6735,7 +6810,7 @@ exports[`With icon to the left`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -6749,7 +6824,7 @@ exports[`With icon to the left`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -6777,7 +6852,7 @@ exports[`With icon to the left`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -6805,7 +6880,7 @@ exports[`With icon to the left`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -6833,7 +6908,21 @@ exports[`With icon to the left`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -6861,10 +6950,10 @@ exports[`With icon to the left`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
@@ -7087,6 +7176,7 @@ exports[`With icon to the left & right`] = `
               </svg>
               <input
                 className="slds-input"
+                customInput={undefined}
                 defaultValue={undefined}
                 id="input-$uuid$"
                 onChange={[Function]}
@@ -7361,10 +7451,10 @@ exports[`With icon to the left & right`] = `
               <tbody>
                 <tr>
                   <td>
-                    bare
+                    inputRef
                   </td>
                   <td>
-                    bool
+                    func
                   </td>
                   <td>
                     no
@@ -7389,7 +7479,7 @@ exports[`With icon to the left & right`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonRight
+                    customInput
                   </td>
                   <td>
                     other
@@ -7403,7 +7493,7 @@ exports[`With icon to the left & right`] = `
                 </tr>
                 <tr>
                   <td>
-                    addonLeft
+                    addonRight
                   </td>
                   <td>
                     other
@@ -7431,7 +7521,7 @@ exports[`With icon to the left & right`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconRight
+                    addonLeft
                   </td>
                   <td>
                     other
@@ -7459,7 +7549,7 @@ exports[`With icon to the left & right`] = `
                 </tr>
                 <tr>
                   <td>
-                    iconLeft
+                    iconRight
                   </td>
                   <td>
                     other
@@ -7487,7 +7577,21 @@ exports[`With icon to the left & right`] = `
                 </tr>
                 <tr>
                   <td>
-                    htmlReadOnly
+                    iconLeft
+                  </td>
+                  <td>
+                    other
+                  </td>
+                  <td>
+                    no
+                  </td>
+                  <td>
+                    -
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    bare
                   </td>
                   <td>
                     bool
@@ -7515,10 +7619,10 @@ exports[`With icon to the left & right`] = `
                 </tr>
                 <tr>
                   <td>
-                    inputRef
+                    htmlReadOnly
                   </td>
                   <td>
-                    func
+                    bool
                   </td>
                   <td>
                     no
