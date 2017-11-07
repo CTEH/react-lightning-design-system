@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import classnames from 'classnames';
 import moment from 'moment';
 import FormElement from './FormElement';
@@ -12,7 +13,7 @@ export default class DateInput extends Component {
     super();
     this.state = {
       id: `form-element-${uuid()}`,
-      opened: (props.defaultOpened || false),
+      opened: props.defaultOpened || false,
     };
 
     this.onDateIconClick = this.onDateIconClick.bind(this);
@@ -45,7 +46,8 @@ export default class DateInput extends Component {
   }
 
   onInputKeyDown(e) {
-    if (e.keyCode === 13) { // return key
+    if (e.keyCode === 13) {
+      // return key
       e.preventDefault();
       e.stopPropagation();
       this.setValueFromInput(e.target.value);
@@ -54,7 +56,8 @@ export default class DateInput extends Component {
           this.props.onComplete();
         }, 10);
       }
-    } else if (e.keyCode === 40) { // down key
+    } else if (e.keyCode === 40) {
+      // down key
       this.showDatepicker();
       e.preventDefault();
       e.stopPropagation();
@@ -174,16 +177,16 @@ export default class DateInput extends Component {
       <div className='slds-input-has-icon slds-input-has-icon--right'>
         <Input
           inputRef={node => (this.input = node)}
-          value={ inputValue }
-          { ...props }
-          onKeyDown={ this.onInputKeyDown }
-          onChange={ this.onInputChange }
-          onBlur={ this.onInputBlur }
+          value={inputValue}
+          {...props}
+          onKeyDown={this.onInputKeyDown}
+          onChange={this.onInputChange}
+          onBlur={this.onInputBlur}
         />
         <span
-          tabIndex={ -1 }
-          style={ props.disabled ? undefined : { cursor: 'pointer' } }
-          onClick={ props.disabled ? undefined : this.onDateIconClick }
+          tabIndex={-1}
+          style={props.disabled ? undefined : { cursor: 'pointer' }}
+          onClick={props.disabled ? undefined : this.onDateIconClick}
         >
           <Icon icon='event' className='slds-input__icon' />
         </span>
@@ -196,60 +199,80 @@ export default class DateInput extends Component {
       'slds-dropdown',
       `slds-dropdown--${this.props.menuAlign}`
     );
-    return (
-      this.state.opened ?
-        <Datepicker
-          className={ datepickerClassNames }
-          selectedDate={ dateValue }
-          autoFocus
-          minDate={minDate}
-          maxDate={maxDate}
-          extensionRenderer={ extensionRenderer }
-          onSelect={ this.onDatepickerSelect }
-          onBlur={ this.onDatepickerBlur }
-          onClose={ this.onDatepickerClose }
-        /> : <div />
+    return this.state.opened ? (
+      <Datepicker
+        className={datepickerClassNames}
+        selectedDate={dateValue}
+        autoFocus
+        minDate={minDate}
+        maxDate={maxDate}
+        extensionRenderer={extensionRenderer}
+        onSelect={this.onDatepickerSelect}
+        onBlur={this.onDatepickerBlur}
+        onClose={this.onDatepickerClose}
+      />
+    ) : (
+      <div />
     );
   }
 
   render() {
     const id = this.props.id || this.state.id;
     const {
-      totalCols, cols, label, required, error,
-      defaultValue, value, menuAlign,
-      minDate, maxDate,
+      totalCols,
+      cols,
+      label,
+      required,
+      error,
+      defaultValue,
+      value,
+      menuAlign,
+      minDate,
+      maxDate,
       extensionRenderer,
       ...props
     } = this.props;
     const dateValue =
-      typeof value !== 'undefined' ? value :
-        typeof this.state.value !== 'undefined' ? this.state.value :
-          defaultValue;
+      typeof value !== 'undefined'
+        ? value
+        : typeof this.state.value !== 'undefined'
+          ? this.state.value
+          : defaultValue;
     const mvalue = moment(dateValue, this.getValueFormat());
     const inputValue =
-      typeof this.state.inputValue !== 'undefined' ?
-        this.state.inputValue :
-      typeof dateValue !== 'undefined' && mvalue.isValid() ?
-        mvalue.format(this.getInputValueFormat()) :
-          undefined;
+      typeof this.state.inputValue !== 'undefined'
+        ? this.state.inputValue
+        : typeof dateValue !== 'undefined' && mvalue.isValid()
+          ? mvalue.format(this.getInputValueFormat())
+          : undefined;
     const dropdown = this.renderDropdown(
       mvalue.isValid() ? mvalue.format('YYYY-MM-DD') : undefined,
       minDate,
       maxDate,
-      extensionRenderer,
+      extensionRenderer
     );
-    const formElemProps = { id, totalCols, cols, label, required, error, dropdown };
+    const formElemProps = {
+      id,
+      totalCols,
+      cols,
+      label,
+      required,
+      error,
+      dropdown,
+    };
     delete props.dateFormat;
     delete props.defaultOpened;
     delete props.includeTime;
     delete props.onComplete;
     return (
       <FormElement
-        formElementRef={ node => (this.node = node) }
-        { ...formElemProps }
-        style={ menuAlign === 'right' ? { position: 'absolute', right: null } : {} }
+        formElementRef={node => (this.node = node)}
+        {...formElemProps}
+        style={
+          menuAlign === 'right' ? { position: 'absolute', right: null } : {}
+        }
       >
-        { this.renderInput({ id, inputValue, ...props }) }
+        {this.renderInput({ id, inputValue, ...props })}
       </FormElement>
     );
   }
